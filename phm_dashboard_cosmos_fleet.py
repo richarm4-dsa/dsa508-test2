@@ -56,7 +56,7 @@ if active_only:
     fdf = fdf[fdf["high_tension.beam_voltage_v"] > 0]
 st.sidebar.divider()
 st.sidebar.caption(
-    "**Data Source:** [PHM Society 2018 Data Challenge](https://github.com/ricardoevvargas/awesome-industry40-datasets/tree/master/datasets/Semicon/PHM%20Data%20Challenge%2018) "
+    "**Data Source:** [PHM Society 2018 Data Challenge](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2018-b/phm-data-challenge-6/) "
     "(Ion Mill Etching System Telemetry)."
 )
 
@@ -228,7 +228,7 @@ st.dataframe(summary, use_container_width=True)
 st.divider()
 st.caption(
     "**Dataset Citation:** Prognostics and Health Management Society (2018). "
-    "*PHM Society 2018 Data Challenge: Ion Mill Etching System* [Data set]. "
-    "https://github.com/ricardoevvargas/awesome-industry40-datasets/tree/master/datasets/Semicon/PHM%20Data%20Challenge%2018"
+    "*PHM Society 2018 Data Challenge: Ion Mill Etching System*."
+    "Available at: https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2018-b/phm-data-challenge-6/"    
 )
 
