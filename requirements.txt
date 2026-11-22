@@ -1,0 +1,6 @@
+streamlit
+azure-cosmos
+pandas
+numpy
+plotly
+os
