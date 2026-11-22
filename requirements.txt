@@ -1,6 +1,6 @@
-streamlit
-azure-cosmos
-pandas
-numpy
-plotly
-os
+azure-cosmos==4.17.1
+numpy==2.4.3
+pandas==3.0.3
+plotly==6.6.0
+streamlit==1.63.0
+
